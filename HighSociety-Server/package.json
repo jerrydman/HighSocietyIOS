@@ -1,0 +1,10 @@
+{
+  "name": "high-society-server",
+  "version": "1.0.0",
+  "description": "Authoritative game server for High Society (contract rummy)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test_server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
