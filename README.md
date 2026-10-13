@@ -22,7 +22,6 @@ Native port of the web app. Needs Xcode 15+ and iOS 16+. Eight Swift files, no d
 - OnlineScreens.swift: host/join panel, invite-link sheet, lobby
 - HighSocietyApp.swift: app entry point
 
-## Online play
-Needs the small server in `server/` running somewhere with https (see its README). In the app, type the server address, your name, pick the number of players and tap Host a game. In the lobby, "Send invite by text" opens the share sheet; pick Messages. A friend who taps the link lands on a page with an Open in app button; the code is also shown for typing in by hand. Other players only ever receive their own hand.
+## Online play Work in Progress
 
 The game saves itself to UserDefaults and resumes where you left off.
